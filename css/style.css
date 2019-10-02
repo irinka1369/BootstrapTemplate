@@ -1,0 +1,25 @@
+html,
+body,
+header,
+#intromain {
+  height: 100%;
+}
+
+#intromain {
+    background: url("../img/main.jpeg")no-repeat center center fixed;
+    background-size: cover;
+}
+.top-nav-collapse {
+	background-color: #24355C;
+}
+@media (max-width: 768px) {
+	.navbar:not(.top-nav-collapse){
+		background-color: #24355C;
+	}
+}
+iframe {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
